@@ -1,0 +1,16 @@
+Pillow
+cython
+scipy
+onnx
+onnxruntime
+timm
+einops == 0.6.1
+natten == 0.14.6
+PyYAML
+yacs
+termcolor
+albumentations == 1.0.3
+pycocotools
+tqdm
+fvcore
+tensorboard
