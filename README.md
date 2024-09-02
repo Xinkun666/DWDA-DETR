@@ -5,7 +5,12 @@ The code for training, validation, and detection of DWDA-DETR.
 After downloading the provided data, place the all_fish directory in the project's images directory, then run main.py to start training.
 ```
 python main.py
-```  
+```
+If you want to perform validation, run:
+```
+python main.py --eval
+```
+
 
 ## Test
 By running detect.py and setting args.weight and args.data_path, you can then perform image detection.
